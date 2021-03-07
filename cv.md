@@ -25,3 +25,18 @@ My projects and code examples are available on GitHub https://github.com/nat6
 **2020** Courses htmlacademy.ru
 **2017** Bachelor of International Journalism, Saint-Petersburg State University
 **2016** Course “Public Speaking”, Saint-Petersburg State University
+
+## SKILLS
+
+1. HTML5
+2. CSS3
+3. JAVASCRIPT
+4. GIT
+5. SCSS
+6. PUG
+7. BEM
+
+## LANGUAGES
+
+ENGLISH – _pre-intermediate_
+RUSSIAN – _native speaker_
