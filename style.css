@@ -1,0 +1,113 @@
+.body {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.container {
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+
+	display: flex;
+	width: 720px;
+
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #323137;
+
+	background-color: #e6e4e9;
+}
+.aside {
+	flex-direction: column;
+
+	background: linear-gradient(to top, #cdccd2 89%, #3d3c41 11%);
+}
+.header__photo {
+	margin-top: 44px;
+	margin-right: 51px;
+	margin-left: 51px;
+
+	width: 180px;
+}
+.header__title {
+	margin-top: 16px;
+	margin-bottom: 0;
+
+	font-size: 24pt;
+	font-weight: 600;
+	line-height: 1.2;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.header__additional-title {
+	width: 100%;
+
+	display: block;
+
+	font-family: 'Work Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+}
+.section-title {
+	margin-top: 56px;
+	margin-left: 40px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15pt;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.contacts__item {
+	margin-top: 9px;
+	list-style-type: none;
+}
+.contacts__link {
+	color: #323137;
+	text-decoration: none;
+}
+.contacts__icon {
+	margin-right: 10px;
+	height: 18px;
+}
+.contacts__text {
+	font-size: 11pt;
+	vertical-align: top;
+}
+.skills__item {
+	font-size: 11pt;
+	margin-top: 9px;
+	margin-left: 32px;
+	list-style-type: none;
+}
+.footer {
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+.footer__year {
+	vertical-align: top;
+	display: inline-block;
+	padding-top: 28px;
+	margin-left: 20px;
+	margin-right: 22px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 10pt;
+	font-weight: 300;
+}
+.footer__icon {
+}
+.footer__icon_rsschool {
+	width: 62px;
+	vertical-align: top;
+	padding-top: 24px;
+}
+.footer__icon_youtube {
+	width: 70px;
+	margin-left: 20px;
+}
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+/*
+font-family: 'Nunito', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
