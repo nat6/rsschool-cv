@@ -11,7 +11,7 @@
 				<header class="header">
 					<img
 						class="header__photo"
-						src="img/temp-photo.jpg"
+						src="img/photo.jpg"
 						alt="Natalia's photo"
 					/>
 					<h1 class="header__title">Natalia Antonova</h1>
@@ -31,7 +31,7 @@
 									src="img/icons/location-pin.svg"
 									alt="location"
 								/>
-								<div class="contacts__text">Saint-Petersburg, Russia</div>
+								<span class="contacts__text">Saint-Petersburg, Russia</span>
 							</a>
 						</li>
 						<li class="contacts__item">
@@ -41,7 +41,7 @@
 									src="img/icons/phone-call.svg"
 									alt="mobile number"
 								/>
-								<div class="contacts__text">+79215988350</div>
+								<span class="contacts__text">+79215988350</span>
 							</a>
 						</li>
 						<li class="contacts__item">
@@ -55,7 +55,7 @@
 									src="img/icons/arroba.svg"
 									alt="email"
 								/>
-								<div class="contacts__text">nat6dv@gmail.com</div>
+								<span class="contacts__text">nat6dv@gmail.com</span>
 							</a>
 						</li>
 						<li class="contacts__item">
@@ -69,7 +69,7 @@
 									src="img/icons/github.svg"
 									alt="github"
 								/>
-								<div class="contacts__text">nat6</div>
+								<span class="contacts__text">nat6</span>
 							</a>
 						</li>
 						<li class="contacts__item">
@@ -83,7 +83,7 @@
 									src="img/icons/linkedin.svg"
 									alt="linkedin"
 								/>
-								<div class="contacts__text">nat6</div>
+								<span class="contacts__text">nat6</span>
 							</a>
 						</li>
 					</ul>
@@ -98,7 +98,7 @@
 						<li class="skills__item">SCSS</li>
 						<li class="skills__item">PUG</li>
 						<li class="skills__item">BEM</li>
-						<li class="skills__item">ADOBE PHOTOSHOP</li>
+						<li class="skills__item">PHOTOSHOP</li>
 					</ul>
 				</section>
 				<footer class="footer">
@@ -125,10 +125,9 @@
 							/>
 						</a>
 					</span>
-					иконку YouTube со ссылкой на видео с самооценкой.
 				</footer>
 			</aside>
-			<main>
+			<main class="main">
 				<section class="profile">
 					<h2 class="section-title profile__section-title">Profile</h2>
 					<div class="profile__text">
@@ -144,47 +143,49 @@
 				</section>
 				<section class="education">
 					<h2 class="section-title education__section-title">Education</h2>
-					<div class="education__item">
-						<span class="education__year"> 2021 </span>
-						<span class="education__course">
-							Course “JavaScript/Front-end”, RSSchool
-						</span>
-					</div>
-					<div class="education__item">
-						<span class="education__year"> 2021 </span>
-						<span class="education__course">
-							Course “Server-side Web Technologies and Content Management
-							Systems”, openedu.ru
-						</span>
-					</div>
-					<div class="education__item">
-						<span class="education__year"> 2021 </span>
-						<span class="education__course">
-							Video course “CS50”, Harvard University
-						</span>
-					</div>
-					<div class="education__item">
-						<span class="education__year"> 2020 </span>
-						<span class="education__course">
-							Course “Web Programming”, openedu.ru
-						</span>
-					</div>
-					<div class="education__item">
-						<span class="education__year"> 2020 </span>
-						<span class="education__course"> Courses htmlacademy.ru </span>
-					</div>
-					<div class="education__item">
-						<span class="education__year"> 2017 </span>
-						<span class="education__course">
-							Bachelor of International Journalism, Saint-Petersburg State
-							University
-						</span>
-					</div>
-					<div class="education__item">
-						<span class="education__year"> 2016 </span>
-						<span class="education__course">
-							Course “Public Speaking”, Saint-Petersburg State University
-						</span>
+					<div class="education__text">
+						<div class="education__item">
+							<span class="education__year"> 2021 </span>
+							<span class="education__course">
+								Course “JavaScript/Front-end”, RSSchool
+							</span>
+						</div>
+						<div class="education__item">
+							<span class="education__year"> 2021 </span>
+							<span class="education__course">
+								Course “Server-side Web Technologies and Content Management
+								Systems”, openedu.ru
+							</span>
+						</div>
+						<div class="education__item">
+							<span class="education__year"> 2021 </span>
+							<span class="education__course">
+								Video course “CS50”, Harvard University
+							</span>
+						</div>
+						<div class="education__item">
+							<span class="education__year"> 2020 </span>
+							<span class="education__course">
+								Course “Web Programming”, openedu.ru
+							</span>
+						</div>
+						<div class="education__item">
+							<span class="education__year"> 2020 </span>
+							<span class="education__course"> Courses htmlacademy.ru </span>
+						</div>
+						<div class="education__item">
+							<span class="education__year"> 2017 </span>
+							<span class="education__course">
+								Bachelor of International Journalism, Saint-Petersburg State
+								University
+							</span>
+						</div>
+						<div class="education__item">
+							<span class="education__year"> 2016 </span>
+							<span class="education__course">
+								Course “Public Speaking”, Saint-Petersburg State University
+							</span>
+						</div>
 					</div>
 				</section>
 				<section class="experience">
@@ -198,17 +199,20 @@
 						>
 							GitHub
 						</a>
-						(@nat6)
+						<span class="experience__text_italic"> (@nat6) </span>
 					</div>
 				</section>
 				<section class="languages">
 					<h2 class="section-title languages__section-title">Languages</h2>
 					<div class="languages__text">
-						English –
-						<span class="languages__text_italic">pre-intermediate</span>
-					</div>
-					<div class="languages__text">
-						Russian – <span class="languages__text_italic">native speaker</span>
+						<div class="languages__item">
+							English –
+							<span class="languages__text_italic">pre-intermediate</span>
+						</div>
+						<div class="languages__item">
+							Russian –
+							<span class="languages__text_italic">native speaker</span>
+						</div>
 					</div>
 				</section>
 			</main>
