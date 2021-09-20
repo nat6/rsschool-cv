@@ -6,6 +6,9 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
 		<title>NATALIA ANTONOVA | CV</title>
 	</head>
 	<body class="body">
@@ -204,6 +207,14 @@
 						>
 							GitHub
 						</a>
+						and
+						<a
+							class="experience__link"
+							href="https://www.codewars.com/users/nat6"
+							target="_blank"
+						>
+						Codewars
+						</a>
 					</div>
 				</section>
 				<section class="languages">
@@ -223,6 +234,44 @@
 					<h2 class="section-title main__section-title video__section-title">Video</h2>
 					<div class="video__container">
 						<iframe class="video__item" width="360" height="212" src="https://www.youtube.com/embed/F2ARe1B22Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</section>
+				<section class="example">
+					<h2 class="section-title main__section-title example__section-title">Code example</h2>
+					<div class="example__text">
+						<div class="example__task">
+							<a
+							class="example__link"
+							href="https://www.codewars.com/kata/527a6e602a7db3456e000a2b/javascript"
+							target="_blank"
+							>
+							Codewars task:
+							</a>
+							<div class="example__task_italic">
+								You are given a complex object that has many deeply nested variables. You don't want to go the usual if obj.property == null route. Create a prototype method that given a nested path, either return the value or undefined.
+							</div>
+						</div>
+						<div class="example__solution">
+							<div class="solution__header">
+								<a
+								class="example__link"
+								href="https://www.codewars.com/kata/reviews/527a6e602a7db3456e000a2e/groups/60b54b582b80bc000109ed6a"
+								target="_blank"
+								>
+								Solution:
+								</a>
+							</div>
+							<pre class="example__pre">
+								<code class="example__code">
+Object.prototype.hash = function(string) {
+	const str = string.split('.');
+	const current = this;
+	return str.reduce((current = this, item) 
+		=> current[item], this);
+}
+								</code>
+							</pre>
+						</div>
 					</div>
 				</section>
 			</main>
