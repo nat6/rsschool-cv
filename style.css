@@ -105,7 +105,7 @@
 .projects__title {
 	text-transform: uppercase;
 	margin-top: 5px;
-	margin-bottom: 8px;
+	margin-bottom: 2px;
 	text-align: center;
 }
 .projects__text {
@@ -122,32 +122,6 @@
 	color: gray;
 	text-align: right;
 	font-style: italic;
-}
-.footer {
-	margin-top: 50px;
-	margin-bottom: 0;
-}
-.footer__year {
-	margin-right: 22px;
-	margin-left: 20px;
-	padding-top: 28px;
-
-	display: inline-block;
-
-	font-family: 'Work Sans', sans-serif;
-	font-size: 10pt;
-	font-weight: 300;
-	vertical-align: top;
-}
-.footer__icon_rsschool {
-	width: 62px;
-	padding-top: 24px;
-
-	vertical-align: top;
-}
-.footer__icon_youtube {
-	width: 70px;
-	margin-left: 30px;
 }
 .main {
 	padding-top: 22px;
@@ -221,4 +195,22 @@
 .video__section-title,
 .example__section-title {
 	margin-top: 30px;
+}
+.footer {
+	margin-top: 34px;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+.footer__year {
+	margin-right: 15px;
+	display: inline-block;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 8pt;
+	font-weight: 300;
+	vertical-align: top;
+}
+.footer__icon_rsschool {
+	width: 42px;
+	vertical-align: top;
 }
