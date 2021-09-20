@@ -144,7 +144,8 @@
 }
 .education__section-title,
 .experience__section-title,
-.languages__section-title {
+.languages__section-title,
+.example__section-title {
 	margin-top: 40px;
 }
 .profile__text {
@@ -192,8 +193,7 @@
 .languages__item {
 	line-height: 2;
 }
-.video__section-title,
-.example__section-title {
+.video__section-title {
 	margin-top: 30px;
 }
 .footer {
@@ -213,4 +213,122 @@
 .footer__icon_rsschool {
 	width: 42px;
 	vertical-align: top;
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+		flex-direction: column;
+	}
+	.header {
+		display: flex;
+		justify-content: space-between;
+	}
+	.header__container {
+		margin-top: 100px;
+		margin-right: 54px;
+	}
+	.header__title {
+		font-size: 20pt;
+	}
+	.header__additional-title {
+		font-size: 8pt;
+	}
+	.container__aside {
+		margin-left: 51px;
+		margin-right: 70px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.aside__section-title {
+		margin-left: 0;
+	}
+	.contacts__list,
+	.skills__list {
+		padding-left: 0;
+	}
+	.contacts__list {
+		font-size: 12pt;
+	}
+	.skills__list {
+		font-size: 8pt;
+	}
+	.projects__section-title {
+		margin-top: 30px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.projects__container {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 480px;
+	}
+	.projects__item {
+		margin-left: 32px;
+	}
+	.video__item {
+		width: 416px;
+		height: 240px;
+	}
+	@media (max-width: 500px) {
+		.container {
+			width: 320px;
+			flex-direction: column;
+		}
+		.header {
+			display: block;
+		}
+		.header__photo {
+			margin-top: 34px;
+			margin-left: 70px;
+		}
+		.header__container {
+			width: 320px;
+			margin-top: 20px;
+			margin-right: 0;
+		}
+		.header__title {
+			font-size: 18pt;
+		}
+		.section-title {
+			font-size: 12pt;
+		}
+		.container__aside {
+			display: block;
+		}
+		.aside__section-title {
+			margin-top: 30px;
+		}
+		.projects__section-title {
+			margin-left: 56px;
+			margin-top: 40px;
+			margin-bottom: 10px;
+			text-align: left;
+		}
+		.projects__item {
+			margin-left: 56px;
+		}
+		.education__section-title, 
+		.experience__section-title, 
+		.languages__section-title, 
+		.example__section-title {
+			margin-top: 30px;
+		}
+		.main__section-title {
+			margin-bottom: 10px;
+		}
+		.video__item {
+			width: 240px;
+			height: 130px;
+		}
+		.example__text {
+			font-size: 6pt;
+		}
+		.example__pre {
+			margin: 0;
+			width: 250px;
+		}
+		.footer {
+			margin-top: 14px;
+		}
+	}
 }

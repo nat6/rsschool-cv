@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.svg">
+		<meta name="viewport" content="width=device-width">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -23,184 +24,190 @@
 							alt="Natalia's photo"
 						/>
 					</figure>
-					<h1 class="header__title">Natalia Antonova</h1>
-					<h3 class="header__additional-title">Junior Frontend Developer</h3>
+					<div class="header__container">
+						<h1 class="header__title">Natalia Antonova</h1>
+						<h3 class="header__additional-title">Junior Frontend Developer</h3>
+					</div>
 				</header>
-				<section class="contacts">
-					<h2 class="section-title aside__section-title contacts__section-title">Contacts</h2>
-					<ul class="contacts__list">
-						<li class="contacts__item">
-							<a
-								class="contacts__link"
-								href="https://goo.gl/maps/Vo9QL6spsqiczwpT9"
-								target="_blank"
-							>
-								<img
-									class="contacts__icon"
-									src="img/icons/location-pin.svg"
-									alt="location"
-								/>
-								<span class="contacts__text">Saint-Petersburg, Russia</span>
-							</a>
-						</li>
-						<li class="contacts__item">
-							<a class="contacts__link" href="tel:+79215988350" target="_blank">
-								<img
-									class="contacts__icon"
-									src="img/icons/phone-call.svg"
-									alt="mobile number"
-								/>
-								<span class="contacts__text">+79215988350</span>
-							</a>
-						</li>
-						<li class="contacts__item">
-							<a
-								class="contacts__link"
-								href="mailto:nat6dv@gmail.com"
-								target="_blank"
-							>
-								<img
-									class="contacts__icon"
-									src="img/icons/arroba.svg"
-									alt="email"
-								/>
-								<span class="contacts__text">nat6dv@gmail.com</span>
-							</a>
-						</li>
-						<li class="contacts__item">
-							<a
-								class="contacts__link"
-								href="https://github.com/nat6"
-								target="_blank"
-							>
-								<img
-									class="contacts__icon"
-									src="img/icons/github.svg"
-									alt="github"
-								/>
-								<span class="contacts__text">nat6</span>
-							</a>
-						</li>
-						<li class="contacts__item">
-							<a
-								class="contacts__link"
-								href="https://www.linkedin.cn/in/nat6/?locale=en_US"
-								target="_blank"
-							>
-								<img
-									class="contacts__icon"
-									src="img/icons/linkedin.svg"
-									alt="linkedin"
-								/>
-								<span class="contacts__text">nat6</span>
-							</a>
-						</li>
-					</ul>
-				</section>
-				<section class="skills">
-					<h2 class="section-title aside__section-title skills__section-title">Skills</h2>
-					<ul class="skills__list">
-						<li class="skills__item">HTML5</li>
-						<li class="skills__item">CSS3</li>
-						<li class="skills__item">JAVASCRIPT</li>
-						<li class="skills__item">GIT</li>
-						<li class="skills__item">SCSS</li>
-						<li class="skills__item">PUG</li>
-						<li class="skills__item">BEM</li>
-						<li class="skills__item">PHOTOSHOP</li>
-					</ul>
-				</section>
+				<div class=container__aside>
+					<section class="contacts">
+						<h2 class="section-title aside__section-title contacts__section-title">Contacts</h2>
+						<ul class="contacts__list">
+							<li class="contacts__item">
+								<a
+									class="contacts__link"
+									href="https://goo.gl/maps/Vo9QL6spsqiczwpT9"
+									target="_blank"
+								>
+									<img
+										class="contacts__icon"
+										src="img/icons/location-pin.svg"
+										alt="location"
+									/>
+									<span class="contacts__text">Saint-Petersburg, Russia</span>
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a class="contacts__link" href="tel:+79215988350" target="_blank">
+									<img
+										class="contacts__icon"
+										src="img/icons/phone-call.svg"
+										alt="mobile number"
+									/>
+									<span class="contacts__text">+79215988350</span>
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a
+									class="contacts__link"
+									href="mailto:nat6dv@gmail.com"
+									target="_blank"
+								>
+									<img
+										class="contacts__icon"
+										src="img/icons/arroba.svg"
+										alt="email"
+									/>
+									<span class="contacts__text">nat6dv@gmail.com</span>
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a
+									class="contacts__link"
+									href="https://github.com/nat6"
+									target="_blank"
+								>
+									<img
+										class="contacts__icon"
+										src="img/icons/github.svg"
+										alt="github"
+									/>
+									<span class="contacts__text">nat6</span>
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a
+									class="contacts__link"
+									href="https://www.linkedin.cn/in/nat6/?locale=en_US"
+									target="_blank"
+								>
+									<img
+										class="contacts__icon"
+										src="img/icons/linkedin.svg"
+										alt="linkedin"
+									/>
+									<span class="contacts__text">nat6</span>
+								</a>
+							</li>
+						</ul>
+					</section>
+					<section class="skills">
+						<h2 class="section-title aside__section-title skills__section-title">Skills</h2>
+						<ul class="skills__list">
+							<li class="skills__item">HTML5</li>
+							<li class="skills__item">CSS3</li>
+							<li class="skills__item">JAVASCRIPT</li>
+							<li class="skills__item">GIT</li>
+							<li class="skills__item">SCSS</li>
+							<li class="skills__item">PUG</li>
+							<li class="skills__item">BEM</li>
+							<li class="skills__item">PHOTOSHOP</li>
+						</ul>
+					</section>
+				</div>
 				<section class="projects">
 					<h2 class="section-title aside__section-title projects__section-title">Projects</h2>
-					<div class="projects__item">
-						<div class="project__skills">
-							html, css, pug, sass, js
-						</div>
-						<a
-							class="projects__link"
-							href="https://rolling-scopes-school.github.io/nat6-JSFE2021Q1/online-zoo/pages/"
-							target="_blank"
-						>
-							<img 
-								class="projects__img"
-								src="img/projects-zoo.png"
-								alt="wildlife project">
-						</a>
-						<h4 class="projects__title">
-							Online zoo
-						</h4>
-						<div class="projects__text">
-							<div class="projects__text_block">
-								Multi-page site with online broadcasts from zoos.
+					<div class="projects__container">
+						<div class="projects__item">
+							<div class="project__skills">
+								html, css, pug, sass, js
+							</div>
+							<a
+								class="projects__link"
+								href="https://rolling-scopes-school.github.io/nat6-JSFE2021Q1/online-zoo/pages/"
+								target="_blank"
+							>
+								<img 
+									class="projects__img"
+									src="img/projects-zoo.png"
+									alt="wildlife project">
+							</a>
+							<h4 class="projects__title">
+								Online zoo
+							</h4>
+							<div class="projects__text">
+								<div class="projects__text_block">
+									Multi-page site with online broadcasts from zoos.
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="projects__item">
-						<div class="project__skills">
-							js
-						</div>
-						<a
-							class="projects__link"
-							href="https://rolling-scopes-school.github.io/nat6-JSFE2021Q1/photo-filter/"
-							target="_blank"
-						>
-							<img 
-								class="projects__img"
-								src="img/projects-filter.png"
-								alt="wildlife project">
-						</a>
-						<h4 class="projects__title">
-							Photo filter
-						</h4>
-						<div class="projects__text">
-							<div class="projects__text_block">
-								Photo effects app. Design and layout are provided by the training course.
+						<div class="projects__item">
+							<div class="project__skills">
+								js
+							</div>
+							<a
+								class="projects__link"
+								href="https://rolling-scopes-school.github.io/nat6-JSFE2021Q1/photo-filter/"
+								target="_blank"
+							>
+								<img 
+									class="projects__img"
+									src="img/projects-filter.png"
+									alt="wildlife project">
+							</a>
+							<h4 class="projects__title">
+								Photo filter
+							</h4>
+							<div class="projects__text">
+								<div class="projects__text_block">
+									Photo effects app. Design and layout are provided by the training course.
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="projects__item">
-						<div class="project__skills">
-							js
-						</div>
-						<a
-							class="projects__link"
-							href="https://rolling-scopes-school.github.io/nat6-JSFE2021Q1/virtual-piano/"
-							target="_blank"
-						>
-							<img 
-								class="projects__img"
-								src="img/projects-piano.png"
-								alt="wildlife project">
-						</a>
-						<h4 class="projects__title">
-							Virtual piano
-						</h4>
-						<div class="projects__text">
-							<div class="projects__text_block">
-								Web version of the piano. Design and layout are provided by the training course.
+						<div class="projects__item">
+							<div class="project__skills">
+								js
+							</div>
+							<a
+								class="projects__link"
+								href="https://rolling-scopes-school.github.io/nat6-JSFE2021Q1/virtual-piano/"
+								target="_blank"
+							>
+								<img 
+									class="projects__img"
+									src="img/projects-piano.png"
+									alt="wildlife project">
+							</a>
+							<h4 class="projects__title">
+								Virtual piano
+							</h4>
+							<div class="projects__text">
+								<div class="projects__text_block">
+									Web version of the piano. Design and layout are provided by the training course.
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="projects__item">
-						<div class="project__skills">
-							html, css
-						</div>
-						<a
-							class="projects__link"
-							href="https://rolling-scopes-school.github.io/nat6-JSFE2021Q1/Wildlife/"
-							target="_blank"
-						>
-							<img 
-								class="projects__img"
-								src="img/projects-wildlife.png"
-								alt="wildlife project">
-						</a>
-						<h4 class="projects__title">
-							Wildlife
-						</h4>
-						<div class="projects__text">
-							<div class="projects__text_block">
-								Just a small tutorial project, one page site.
+						<div class="projects__item">
+							<div class="project__skills">
+								html, css
+							</div>
+							<a
+								class="projects__link"
+								href="https://rolling-scopes-school.github.io/nat6-JSFE2021Q1/Wildlife/"
+								target="_blank"
+							>
+								<img 
+									class="projects__img"
+									src="img/projects-wildlife.png"
+									alt="wildlife project">
+							</a>
+							<h4 class="projects__title">
+								Wildlife
+							</h4>
+							<div class="projects__text">
+								<div class="projects__text_block">
+									Just a small tutorial project, one page site.
+								</div>
 							</div>
 						</div>
 					</div>
