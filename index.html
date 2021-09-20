@@ -28,10 +28,27 @@
 						<h1 class="header__title">Natalia Antonova</h1>
 						<h3 class="header__additional-title">Junior Frontend Developer</h3>
 					</div>
+					<div class="menu__wrapper">
+						<input class="menu-button" type="checkbox" id="menu-button" name="menu-button">
+						<label class="menu-button__label" for="menu-button"> <span class="menu-button__span"></span></label>
+						<nav class="nav header__nav">
+							<ul class="nav__list">
+								<li class="nav__item"><a class="nav__link" href="#contacts">contacts</a></li>
+								<li class="nav__item"><a class="nav__link" href="#skills">skills</a></li>
+								<li class="nav__item"><a class="nav__link" href="#profile">profile</a></li>
+								<li class="nav__item"><a class="nav__link" href="#education">education</a></li>
+								<li class="nav__item"><a class="nav__link" href="#experience">experience</a></li>
+								<li class="nav__item"><a class="nav__link" href="#projects">projects</a></li>
+								<li class="nav__item"><a class="nav__link" href="#languages">languages</a></li>
+								<li class="nav__item"><a class="nav__link" href="#video">video</a></li>
+								<li class="nav__item"><a class="nav__link" href="#code">code example</a></li>
+							</ul>
+						</nav>
+					</div>
 				</header>
 				<div class=container__aside>
 					<section class="contacts">
-						<h2 class="section-title aside__section-title contacts__section-title">Contacts</h2>
+						<h2 class="section-title aside__section-title contacts__section-title" id="contacts">Contacts</h2>
 						<ul class="contacts__list">
 							<li class="contacts__item">
 								<a
@@ -102,7 +119,7 @@
 						</ul>
 					</section>
 					<section class="skills">
-						<h2 class="section-title aside__section-title skills__section-title">Skills</h2>
+						<h2 class="section-title aside__section-title skills__section-title" id="skills">Skills</h2>
 						<ul class="skills__list">
 							<li class="skills__item">HTML5</li>
 							<li class="skills__item">CSS3</li>
@@ -116,7 +133,7 @@
 					</section>
 				</div>
 				<section class="projects">
-					<h2 class="section-title aside__section-title projects__section-title">Projects</h2>
+					<h2 class="section-title aside__section-title projects__section-title" id="projects">Projects</h2>
 					<div class="projects__container">
 						<div class="projects__item">
 							<div class="project__skills">
@@ -215,7 +232,7 @@
 			</aside>
 			<main class="main">
 				<section class="profile">
-					<h2 class="section-title main__section-title profile__section-title">Profile</h2>
+					<h2 class="section-title main__section-title profile__section-title" id="profile">Profile</h2>
 					<div class="profile__text">
 						A beginner front-end developer. I'm a quick learner, I like working
 						in a team. An international journalist by education. I easily find
@@ -228,7 +245,7 @@
 					</div>
 				</section>
 				<section class="education">
-					<h2 class="section-title main__section-title education__section-title">Education</h2>
+					<h2 class="section-title main__section-title education__section-title" id="education">Education</h2>
 					<div class="education__text">
 						<div class="education__item">
 							<span class="education__year"> 2021 </span>
@@ -275,7 +292,7 @@
 					</div>
 				</section>
 				<section class="experience">
-					<h2 class="section-title main__section-title experience__section-title">Experience</h2>
+					<h2 class="section-title main__section-title experience__section-title" id="experience">Experience</h2>
 					<div class="experience__text">
 						My projects and code examples are available on
 						<a
@@ -296,7 +313,7 @@
 					</div>
 				</section>
 				<section class="languages">
-					<h2 class="section-title main__section-title languages__section-title">Languages</h2>
+					<h2 class="section-title main__section-title languages__section-title" id="languages">Languages</h2>
 					<div class="languages__text">
 						<div class="languages__item">
 							English –
@@ -309,13 +326,13 @@
 					</div>
 				</section>
 				<section class="video">
-					<h2 class="section-title main__section-title video__section-title">Video</h2>
+					<h2 class="section-title main__section-title video__section-title" id="video">Video</h2>
 					<div class="video__container">
-						<iframe class="video__item" width="360" height="212" src="https://www.youtube.com/embed/F2ARe1B22Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe class="video__item" width="360" height="212" src="https://www.youtube.com/embed/F2ARe1B22Zo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 				</section>
 				<section class="example">
-					<h2 class="section-title main__section-title example__section-title">Code example</h2>
+					<h2 class="section-title main__section-title example__section-title" id="code">Code example</h2>
 					<div class="example__text">
 						<div class="example__task">
 							<a
